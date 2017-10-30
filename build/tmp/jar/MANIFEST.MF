@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS Osgi Override class example
+Bundle-SymbolicName: com.dotcms.NOMURA.castDoubleToString
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1509383467000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.contenttype.business;version=0,com.dotcms.c
+ ontenttype.model.type;version=0,com.dotcms.contenttype.transform.fiel
+ d;version=0,com.dotcms.repackage.org.apache.commons.lang.math;version
+ =0,com.dotcms.repackage.org.apache.logging.log4j;version=0,com.dotcms
+ .repackage.org.apache.logging.log4j.core;version=0,com.dotcms.repacka
+ ge.org.apache.logging.log4j.spi;version=0,com.dotmarketing.business;v
+ ersion=0,com.dotmarketing.exception;version=0,com.dotmarketing.logger
+ s;version=0,com.dotmarketing.osgi;version=0,com.dotmarketing.portlets
+ .contentlet.business;version=0,com.dotmarketing.portlets.contentlet.m
+ odel;version=0,com.dotmarketing.portlets.structure.model;version=0,co
+ m.dotmarketing.util;version=0,com.dotmarketing.util.json;version=0,co
+ m.liferay.portal.model;version=0,org.osgi.framework;version=0
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+DynamicImport-Package: *
+Tool: Bnd-3.2.0.201605172007
+Export-Package: com.dotmarketing.osgi.override;version="0.1";uses:="co
+ m.dotmarketing.osgi,com.liferay.portal.model,org.osgi.framework"
+Bundle-Name: Osgi Override class
+Bundle-Version: 0.1
+Bundle-Activator: com.dotmarketing.osgi.override.Activator
+Created-By: 1.8.0_121 (Oracle Corporation)
+
